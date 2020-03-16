@@ -1,0 +1,113 @@
+
+/* header */
+
+.header {
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Quicksand', sans-serif;
+    align-items: center;
+    height: 3rem;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+    font-size: .77rem;
+    font-weight: bold;
+  }
+  
+.header .logo {
+    flex-grow: 1;
+    color: #ffb78c;
+  }
+  
+.header li {
+    display: inline;
+    padding-right: 1.5rem;
+  }
+  
+.header li a {
+    text-decoration: none;
+    color: #4a4a4a;
+  }
+
+@media only screen and (max-width: 750px) {
+    .header {
+      flex-direction: column;
+      padding-bottom: 1rem;
+    }
+  
+    .header .logo {
+      flex-grow: 0;
+    }
+}
+
+  /* banner */
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("https://themerrythought.com/wp-content/uploads/11-23219-post/BeerCanPlanter1.jpg") center center no-repeat;
+    background-size: cover;
+    max-width: 900px;
+    margin: 0 auto;
+    /* NEED TO CHANGE COLOR */
+    color: #4a4a4a;
+}
+
+  .banner h1 {
+    /* NEED TO GET BETTER FONT*/
+    position: relative;
+    padding-block-end: 80%;
+    font-size: 6rem;
+    font-weight: 700;
+  }
+
+/* NEED TO GET MEDIA QUERY AT 750px width*/
+
+/* body */
+  .content {
+    padding-top: 3rem;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+
+  }
+
+  .info {
+      font-size: 2.5rem;
+      text-align: center;
+  }
+
+  .info a {
+      text-decoration: none;
+      color: green;
+  }
+
+
+/* footer */
+
+  footer {
+    color: #a7a7a7;
+    padding: 0.1rem;
+    
+
+  }
+
+  footer h2 {
+      margin-top: 2.24rem;
+      margin-bottom: 0;
+      font-size: 1.3rem;
+      padding-top: 0.2rem;
+      font-size: 0.97rem;
+      font-weight: normal;
+
+  }
+
+.footer-info{
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-right: 5rem;
+    }
